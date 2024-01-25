@@ -1,0 +1,97 @@
+body {
+    font-family: "Aboreto", sans-serif;
+    background-color: white;
+  }
+  pre {
+    font-family: "Aboreto", sans-serif;
+  }
+  
+  h1 {
+    color: #1b1b0b;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 60pt;
+    text-align: left;
+    margin-bottom: 0;
+    margin-left: 20px;
+  }
+  h5 {
+    margin: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #center {
+    text-align: center;
+  }
+  .images {
+    text-shadow: 3px 3px 3px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0x;
+  }
+  span {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  #sando {
+    float: left;
+    margin-left: 450px;
+  }
+  #apple {
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    display: inline-block;
+  }
+  #brulee {
+    margin-bottom: 0px;
+    margin-right: 420px;
+    float: right;
+  }
+  #text1 {
+    margin-top: 0px;
+    margin-left: 300px;
+    font-size: small;
+    float: left;
+  }
+  
+  #text2 {
+    margin-left: 20px;
+    margin-top: 0px;
+    display: inline-block;
+    font-size: small;
+  }
+  #text3 {
+    margin-top: 0px;
+    margin-right: 350px;
+    float: right;
+    font-size: small;
+  }
+  #inline {
+    text-align: center;
+  }
+  h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #navigation {
+    height: 60px;
+    background-color: lightgrey;
+    margin-left: 1200px;
+  }
+  #box {
+    text-align: left;
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-left: 3px;
+    padding-bottom: 5px;
+    background-color: white;
+  }
+  #middle {
+    margin-left: 30px;
+    display: inline-block;
+  }
+  footer {
+    background-color: lightgray;
+  }
+  
