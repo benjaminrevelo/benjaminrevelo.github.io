@@ -86,7 +86,7 @@ body {
     text-align: right;
 }
 
-#comments {
+.comments {
     font-style: italic;
     background-color: #FFFFA8;
     margin-left: 50px;
@@ -95,8 +95,4 @@ body {
 
 a:link {
     color: #A4A400;
-}
-
-p {
-    text-align:center;
 }
