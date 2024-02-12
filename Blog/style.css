@@ -1,0 +1,178 @@
+.navigation {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navigation a {
+    color: black;
+    padding: 14px;
+    font-size: 16px;
+}
+.search {
+    padding-bottom: 14px;
+    padding-top: 14px;
+}
+#blog {
+    display: inline;
+
+}
+#blog img{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+section {
+    background-color: white;
+    height: 600px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h4 {
+    text-align: center;
+}
+.intro {
+    background-color: white;
+    height: 300px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#box1 {
+    background-color: white;
+    height: 100%;
+    width: 40%;
+}
+#box1 p{
+    background-color: lightgrey;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 2;
+}
+#box2 {
+   background-image: url("images/intro\ pic.jpeg");
+    height: 100%;
+    width: 40%;
+}
+#section1 {
+    background-color:rgb(209, 247, 209);
+    height: 600px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#box3 {
+    background-image: url("images/tate\ street\ coffee.png");
+    background-size: cover;
+    object-fit: cover;
+    height: 60%;
+    width: 30%;
+}
+#box4 {
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+#box4 #innerbox1{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+#innerbox1 p {
+    text-align: center;
+    line-height: 0.5;
+}
+#innerbox1 h1 {
+    text-align: center;
+
+}
+#innerbox1 h4 {
+    text-align: center;
+}
+#box4 #innerbox2{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+/*Sushi Republic */
+#box5 {
+    background-image: url("images/sushi\ republic.png");
+    background-size: 400px;
+    height: 60%;
+    width: 30%;
+}
+#box6 {
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+#box6 #innerbox3{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+#innerbox3 p {
+    text-align: center;
+    line-height: 0.5;
+}
+#innerbox3 h1 {
+    text-align: center;
+
+}
+#innerbox3 h4 {
+    text-align: center;
+}
+#box6 #innerbox4{
+    display: inline-block;
+    background-color:white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*NY Pizza*/
+#box7 {
+    background-image: url("images/new\ york\ pizza.png");
+    background-size: cover;
+    object-fit: cover;
+    height: 60%;
+    width: 30%;
+}
+#box8 {
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+#box8 #innerbox3{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+#innerbox5 p {
+    text-align: center;
+    line-height: 0.5;
+}
+#innerbox5 h1 {
+    text-align: center;
+
+}
+#innerbox5 h4 {
+    text-align: center;
+}
+#box8 #innerbox6{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
