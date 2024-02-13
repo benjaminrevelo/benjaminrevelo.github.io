@@ -1,178 +1,203 @@
+body {
+  font-family: "Unbuntu Condensed", sans-serif;
+  font-size: 12pt;
+}
 .navigation {
-    background-color: transparent;
-    display: flex;
-    justify-content: space-evenly;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-evenly;
 }
 .navigation a {
-    color: black;
-    padding: 14px;
-    font-size: 16px;
+  color: black;
+  padding: 14px;
+  font-size: 16px;
 }
 .search {
-    padding-bottom: 14px;
-    padding-top: 14px;
+  padding-bottom: 14px;
+  padding-top: 14px;
 }
 #blog {
-    display: inline;
-
+  display: inline;
 }
-#blog img{
-    padding-left: 200px;
-    padding-right: 200px;
+#blog img {
+  padding-left: 200px;
+  padding-right: 200px;
 }
 section {
-    background-color: white;
-    height: 600px;
-    padding: 30px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  background-color: white;
+  height: 600px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 h4 {
-    text-align: center;
+  text-align: center;
 }
 .intro {
-    background-color: white;
-    height: 300px;
-    padding: 30px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  background-color: white;
+  height: 300px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
 }
 #box1 {
-    background-color: white;
-    height: 100%;
-    width: 40%;
+  background-color: white;
+  height: 100%;
+  width: 40%;
 }
-#box1 p{
-    background-color: lightgrey;
-    padding: 30px;
-    border-radius: 10px;
-    text-align: center;
-    line-height: 2;
+#box1 p {
+  background-color: lightgrey;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 2;
 }
 #box2 {
-   background-image: url("images/intro\ pic.jpeg");
-    height: 100%;
-    width: 40%;
+  background-image: url("images/intro\ pic.jpeg");
+  background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 40%;
 }
 #section1 {
-    background-color:rgb(209, 247, 209);
-    height: 600px;
-    padding: 30px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  background-color: rgb(209, 247, 209);
+  height: 600px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 #box3 {
-    background-image: url("images/tate\ street\ coffee.png");
-    background-size: cover;
-    object-fit: cover;
-    height: 60%;
-    width: 30%;
+  background-image: url("images/tate\ street\ coffee.png");
+  background-size: cover;
+  object-fit: cover;
+  height: 60%;
+  width: 30%;
 }
 #box4 {
-    height: 80%;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
+  height: 80%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
 }
-#box4 #innerbox1{
-    display: inline-block;
-    height: 100%;
-    width: 100%;
+#box4 #innerbox1 {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
 }
 #innerbox1 p {
-    text-align: center;
-    line-height: 0.5;
+  text-align: center;
+  line-height: 0.5;
 }
 #innerbox1 h1 {
-    text-align: center;
-
+  text-align: center;
 }
 #innerbox1 h4 {
-    text-align: center;
+  text-align: center;
 }
-#box4 #innerbox2{
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
+#box4 #innerbox2 {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  text-align: center;
 }
 /*Sushi Republic */
 #box5 {
-    background-image: url("images/sushi\ republic.png");
-    background-size: 400px;
-    height: 60%;
-    width: 30%;
+  background-image: url("images/sushi\ republic.png");
+  background-size: 460px;
+  height: 60%;
+  width: 30%;
 }
 #box6 {
-    height: 80%;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
+  height: 80%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
 }
-#box6 #innerbox3{
-    display: inline-block;
-    height: 100%;
-    width: 100%;
+#box6 #innerbox3 {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
 }
 #innerbox3 p {
-    text-align: center;
-    line-height: 0.5;
+  text-align: center;
+  line-height: 0.5;
 }
 #innerbox3 h1 {
-    text-align: center;
-
+  text-align: center;
 }
 #innerbox3 h4 {
-    text-align: center;
+  text-align: center;
 }
-#box6 #innerbox4{
-    display: inline-block;
-    background-color:white;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
+#box6 #innerbox4 {
+  display: inline-block;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
 }
 
 /*NY Pizza*/
 #box7 {
-    background-image: url("images/new\ york\ pizza.png");
-    background-size: cover;
-    object-fit: cover;
-    height: 60%;
-    width: 30%;
+  background-image: url("images/new\ york\ pizza.png");
+  background-size: cover;
+  object-fit: cover;
+  height: 60%;
+  width: 30%;
 }
 #box8 {
-    height: 80%;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
+  height: 80%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
 }
-#box8 #innerbox3{
-    display: inline-block;
-    height: 100%;
-    width: 100%;
+#box8 #innerbox3 {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
 }
 #innerbox5 p {
-    text-align: center;
-    line-height: 0.5;
+  text-align: center;
+  line-height: 0.5;
 }
 #innerbox5 h1 {
-    text-align: center;
-
+  text-align: center;
 }
 #innerbox5 h4 {
-    text-align: center;
+  text-align: center;
 }
-#box8 #innerbox6{
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
+#box8 #innerbox6 {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+
+}
+.big {
+  margin: 0 10px;
+  border: 1px solid black;
+  width: 360px;
+  height: 240px;
+}
+.small {
+  margin: 0 10px;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+}
+.big {
+  margin: 0 10px;
+  border: 1px solid black;
+  width: 460px;
+  height: 340px;
 }

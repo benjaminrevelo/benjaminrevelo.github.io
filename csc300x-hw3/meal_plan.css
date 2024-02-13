@@ -1,0 +1,89 @@
+body {
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 14pt;
+}
+.navigation {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-evenly;
+}
+.navigation a {
+  color: black;
+  padding: 14px;
+  font-size: 16px;
+}
+.search {
+  padding-bottom: 14px;
+  padding-top: 14px;
+}
+#blog {
+  display: inline;
+}
+#blog img {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+section p {
+  text-align: center;
+  background-color: rgb(209, 247, 209);
+  padding: 30px;
+  border-radius: 10px;
+}
+#layout {
+  background-color: white;
+  height: 900px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#meals {
+  background-color: rgb(209, 247, 209);
+  border-radius: 10px;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+#title p {
+  text-align: center;
+}
+#meals #plates {
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  height: 80%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+#meals #plates #restaurant{
+  font-size: 20pt;
+  text-align: left;
+  height: 33%;
+  width: 100%;
+}
+
+#food {
+  background-color: rgb(209, 247, 209);
+  border-radius: 10px;
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+#food #order {
+  background-color: white;
+  border-radius: 10px;
+  height: 80%;
+  width:80%;
+  text-align: center;
+}
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <hr />
+  <head>
+    <title>Meal Plan</title>
+    <link rel="stylesheet" href="meal_plan.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu Condensed">
+    <script src="meal_plan.js"></script>
+  </head>
+  <nav class="navigation">
+    <div class="search">
+      <a href="blog.html">Home</a>
+      <a href="meal_plan.html">Meal Plan</a>
+      <div id="blog">
+        <img src="./images/logo.png" width="250" height="100" />
+      </div>
+      <a href="">Contact</a>
+      <a href="">About</a>
+    </div>
+  </nav>
+  <body>
+    <section>
+      <p>
+        Design your ideal meal plan based on the variety of specialties offered
+        by the restaurants surrounding our campus!
+      </p>
+    </section>
+
+    <section id="layout">
+      <div id="meals">
+        <div id="title">
+          <p>Restaurants & Specialties</p>
+        </div>
+        <div id="plates">
+          <div id="restaurant">
+            <h4>Tates Street Coffee House</h4>
+            <ul>
+              <li onclick="addMeal('Iced Coffee', 3)">Iced Coffee $3.00</li>
+              <li onclick="addMeal('Pita & Hummus', 4.5)">Pita & Hummus $4.50</li>
+              <li onclick="addMeal('Cinnamon Rolls', 3.5)">Cinnamon Rolls $3.50</li>
+            </ul>
+          </div>
+          <div id="restaurant">
+            <h4>Sushi Republic</h4>
+            <ul>
+              <li onclick="addMeal('Tuna Tataki', 12.5)">Tuna Tataki $12.50</li>
+              <li onclick="addMeal('Spicy Crab Salad', 8)">Spicy Crab Salad $8.00</li>
+              <li onclick="addMeal('Fresh Water Eel', 7.5)">Fresh Water Eel (Unagi) $7.50</li>
+            </ul>
+          </div>
+          <div id="restaurant">
+            <h4>New York Pizza</h4>
+            <ul>
+              <li onclick="addMeal('Classic Arancini Risotto', 9.99)">Classic Arancini Risotto $9.99</li>
+              <li onclick="addMeal('Stromboli', 13.49)">Stromboli $13.49</li>
+              <li onclick="addMeal('Greek Salad', 13.25)">Greek Salad $13.25</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="food">
+        <h4>Meals</h4>
+        <div id ="order">
+         <ul id="meal_plan"></ul> 
+         <p>Total Price for Meals: $<span id="total_amount">0</span></p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
