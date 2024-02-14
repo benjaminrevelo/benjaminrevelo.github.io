@@ -18,8 +18,10 @@ function addMeal(foodName, price) {
     const newTotal = currentTotal + price;
     //store the new total
     document.getElementById('total_amount').textContent = newTotal.toFixed(2);
+    //remove appended child
     order.onclick = function() {
         list.removeChild(list.firstElementChild);
+        //adjust the amount when the child is removed
         const subtract = newTotal - price;
         document.getElementById('total_amount').textContent = subtract.toFixed(2);
     }
