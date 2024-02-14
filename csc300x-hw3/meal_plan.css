@@ -50,6 +50,7 @@ section p {
 }
 #title p {
   text-align: center;
+  font-family: "Protest Strike", sans-serif;
 }
 #meals #plates {
   background-color: white;
@@ -86,6 +87,9 @@ section p {
   height: 80%;
   width:80%;
   text-align: center;
+}
+#food h4 {
+  font-family: "Protest Strike", sans-serif;
 }
 button {
   background-color: rgb(209, 247, 209);
