@@ -19,6 +19,10 @@ body {
 #blog {
   display: inline;
 }
+h1 {
+  font-size: 30pt;
+  font-family: "Protest Strike", sans-serif;
+}
 #blog img {
   padding-left: 200px;
   padding-right: 200px;
@@ -137,7 +141,6 @@ h4 {
 }
 #box6 #innerbox4 {
   display: inline-block;
-  background-color: white;
   height: 100%;
   width: 100%;
   display: flex;

@@ -39,6 +39,7 @@ section p {
 }
 #meals {
   background-color: rgb(209, 247, 209);
+  font-size: 20pt;
   border-radius: 10px;
   height: 100%;
   width: 50%;
@@ -62,7 +63,6 @@ section p {
   flex-direction: column;
 }
 #meals #plates #restaurant{
-  font-size: 20pt;
   text-align: left;
   height: 33%;
   width: 100%;
@@ -70,6 +70,7 @@ section p {
 
 #food {
   background-color: rgb(209, 247, 209);
+  font-size: 20pt;
   border-radius: 10px;
   height: 100%;
   width: 30%;
