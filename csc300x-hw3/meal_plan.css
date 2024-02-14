@@ -86,4 +86,7 @@ section p {
   width:80%;
   text-align: center;
 }
-
+button {
+  background-color: rgb(209, 247, 209);
+  font-size: 14pt;
+}

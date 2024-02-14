@@ -9,6 +9,7 @@ function addMeal(foodName, price) {
     //append child element to parent element
     list.appendChild(order);
 
+    
     //Calculate the price
     const total = document.getElementById('total_amount').textContent;
     //convert the string to number
@@ -16,8 +17,11 @@ function addMeal(foodName, price) {
     //add the cost of the dish added
     const newTotal = currentTotal + price;
     //store the new total
-    total.textContent = newTotal;
+    document.getElementById('total_amount').textContent = newTotal.toFixed(2);
+    order.onclick = function() {
+        list.removeChild(list.firstElementChild);
+        const subtract = newTotal - price;
+        document.getElementById('total_amount').textContent = subtract.toFixed(2);
+    }
 }
-function removeMeal(foodName, price) {
 
-}
