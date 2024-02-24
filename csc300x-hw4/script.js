@@ -2,13 +2,14 @@ let wins = 0;
 let losses = 0;
 let ties = 0;
 //adds red border to the users choice
+//Ben worked on this
 function addBorders(selectedImage) {
     document.querySelectorAll('#player img').forEach(img => {
         img.classList.remove("borders"); // Remove borders from all images
     });
     selectedImage.classList.add("borders"); // Add border to the clicked image
 }
-
+//Ben worked on this
 function play(playerChoice) {
     // declaring the array of choices
     var choices = ["rock", "paper", "scissors"];
@@ -36,6 +37,7 @@ function play(playerChoice) {
     //the images wont display. to my knowledge, the delay needs to be specified or JS wont know how often the functions needs to be executed. -Lindsey
 }
 //I'm updating this checkWinner function to hopefully modify modify scores - Lindsey
+//Ben worked on this
 function checkWinner(playerChoice, computerChoice) {
     if (playerChoice === computerChoice) {
         ties++;
@@ -57,6 +59,7 @@ function checkWinner(playerChoice, computerChoice) {
 }
 
 //Since we care about our scores we need to update the HTML so,
+//Lindsey's worked on this
 function updateScoreDisplay() {
     document.getElementById("wins").innerText = `Wins: ${wins}`;
     document.getElementById("losses").innerText = `Losses: ${losses}`;
@@ -64,6 +67,7 @@ function updateScoreDisplay() {
 }
 
 // Implementing a function to reset the game
+//Lindsey's worked on this
 function resetGame() {
     // Remove borders from all player images
     document.querySelectorAll('#player img').forEach(img => {
@@ -88,4 +92,5 @@ function resetGame() {
 }
 
 //event listener to our reset button
+//Lindsey's worked on this
 document.getElementById("resetButton").addEventListener('click', resetGame);
